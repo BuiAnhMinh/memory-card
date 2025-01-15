@@ -66,3 +66,46 @@ body {
   font-weight: bold;
   color: #ffcc00;
 }
+
+
+/* styles.css */
+
+.congratulations {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid #ffcc00;
+  box-shadow: 0 0 20px #ffcc00;
+  z-index: 10;
+}
+
+.congratulations h1 {
+  font-size: 2em;
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.congratulations p {
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.congratulations button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background: #ffcc00;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.congratulations button:hover {
+  background: #ffd700;
+}
